@@ -68,7 +68,7 @@ python3 manage.py runserver
         "group": 0
     }
 
-- /api/v1/posts/{post_id}/comments{id}/ (GET)
+- /api/v1/posts/{post_id}/comments/{id}/ (GET)
 
     {
         "id": 0,
