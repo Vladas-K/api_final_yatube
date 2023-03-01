@@ -58,6 +58,25 @@ python3 manage.py runserver
 
 /api/v1/follow/ (GET, POST)
 
+## Примеры ответов
+
+- /api/v1/posts/ (POST)
+
+    {
+        "text": "string",
+        "image": "string",
+        "group": 0
+    }
+
+- /api/v1/posts/{post_id}/comments{id}/ (GET)
+
+    {
+        "id": 0,
+        "author": "string",
+        "text": "string",
+        "created": "2019-08-24T14:15:22Z",
+        "post": 0
+    }
 
 ## Авторы
 - Владас 
